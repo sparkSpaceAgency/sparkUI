@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/drag/drag"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ffd333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "组件",
+        "iconPath": "assets/images/assembly_off.png",
+        "selectedIconPath": "assets/images/assembly_on.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "火星",
+        "iconPath": "assets/images/mine_off.png",
+        "selectedIconPath": "assets/images/mine_on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

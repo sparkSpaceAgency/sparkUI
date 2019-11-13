@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+
+<view class="cells">
+	<view class="title">
+		<view class="title__bd">拖拽</view>
+		<view class="title__ft">
+			<image src="/assets/images/drag.png"></image>
+		</view>
+	</view>
+	<navigator url="/pages/drag/drag" hover-class="hover" hover-start-time="{{0}}" class="cell">
+		<view class="cell__bd">drag</view>
+	</navigator>
+</view>
